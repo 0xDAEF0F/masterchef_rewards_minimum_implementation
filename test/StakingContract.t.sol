@@ -2,8 +2,8 @@
 pragma solidity ^0.8.0;
 
 import {Test} from "forge-std/Test.sol";
-import {Token} from "../src/staking_rewards/Token.sol";
-import {StakingContract} from "../src/staking_rewards/StakingContract.sol";
+import {Token} from "src/Token.sol";
+import {StakingContract} from "src/StakingContract.sol";
 
 uint256 constant WITH_DECIMALS = 10 ** 18;
 
